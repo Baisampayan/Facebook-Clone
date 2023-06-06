@@ -1,5 +1,5 @@
 # Facebook-Clone
-Creating a clone of Facebook Website (http://facebook.com/), with HTML, CSS,JS
+Creating a clone of Facebook Website (https://facebook.com/), with HTML, CSS,JS
 
 ## Technologies
 1. HTML
