@@ -1,5 +1,5 @@
 # Facebook-Clone
-Creating a clone of CRED Website (http://cred.club/), with HTML, CSS,JS
+Creating a clone of Facebook Website (http://facebook.com/), with HTML, CSS,JS
 
 ## Technologies
 1. HTML
