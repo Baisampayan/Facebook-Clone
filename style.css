@@ -78,7 +78,7 @@ nav {
     border-radius: 50%;
     background-color: var(--online-color);
     position: absolute;
-    bottom: 5px;
+    top: 5px;
     right: 0;
 }
 
@@ -116,11 +116,14 @@ nav {
 }
 
 .left-sidebar {
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .right-sidebar {
     align-self: flex-start;
+    background-color: var(--white-color);
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .main-container {
@@ -228,4 +231,30 @@ nav {
     font-size: 12px;
     text-decoration: none;
     color: var(--sidebar-more-link);
+}
+
+.sidebar-ads {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.active-users {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.active-users .online img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.active-users .online {
+    margin-right: 15px;
+}
+
+.active-users .online::after {
+    top: unset;
+    bottom: 5px;
 }
