@@ -115,10 +115,6 @@ nav {
     top: 50px;
 }
 
-.left-sidebar {
-    /* align-self: flex-end; */
-}
-
 .right-sidebar {
     align-self: flex-start;
     background-color: var(--white-color);
