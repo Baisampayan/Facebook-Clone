@@ -13,6 +13,7 @@
     --sidebar-more-link: #1876F2;
     --border-color: #CED0D4;
     --primary-text-color: #626262;
+    --secondary-text-color: #9a9a9a;
 }
 
 *{
@@ -377,4 +378,35 @@ nav {
 .create-post-button a img {
     width: 20px;
     margin-right: 10px;
+}
+
+.story-container {
+    width: 100%;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.post-text {
+    color: var(--secondary-text-color);
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-text span {
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
+
+.post-text a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
