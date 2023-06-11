@@ -470,7 +470,7 @@ nav {
 }
 
 .footer {
-    background-color: #1B74E4;
+    background-color: var(--primary-color);
     padding: 10px 0 20px;
 }
 
