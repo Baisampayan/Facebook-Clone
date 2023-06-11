@@ -14,6 +14,8 @@
     --border-color: #CED0D4;
     --primary-text-color: #1c1e21;
     --secondary-text-color: #65676b;
+    --load-more-button-bg: #9a9a9a;
+    
 }
 
 *{
@@ -454,4 +456,26 @@ nav {
 
 .post-user-icon i {
     font-size: 10px;
+}
+
+.load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px 25px;
+    color: var(--secondary-text-color);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.footer {
+    background-color: #1B74E4;
+    padding: 10px 0 20px;
+}
+
+.footer .copyright {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 13px;
 }
