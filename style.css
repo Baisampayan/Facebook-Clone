@@ -113,12 +113,12 @@ nav {
 
 .left-sidebar, .right-sidebar{
     flex-basis: 22%;
-    position: relative;
-    
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
 }
 
 .right-sidebar {
-    align-self: flex-start;
     background-color: var(--white-color);
     padding: 15px;
     border-radius: 10px;
@@ -327,6 +327,16 @@ nav {
     color: var(--primary-text-color);
 }
 
+.user-post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-post-row a {
+    color: var(--secondary-text-color);
+}
+
 .user-profile {
     display: flex;
     align-items: center;
@@ -411,4 +421,37 @@ nav {
     width: 100%;
     border-radius: 5px;
     margin-bottom: 5px;
+}
+
+.post-activity-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-activity-icons div img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.post-activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.post-user-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-user-icon img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-user-icon i {
+    font-size: 10px;
 }
