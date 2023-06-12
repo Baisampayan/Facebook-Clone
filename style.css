@@ -15,7 +15,15 @@
     --primary-text-color: #1c1e21;
     --secondary-text-color: #65676b;
     --load-more-button-bg: #9a9a9a;
-    
+    --black-color: #000000;
+}
+
+.dark-mode {
+    --body-bg-color: #0f0f0f;
+    --sidebar-imp-color: #FFFFFF;
+    --white-color: #0A0A0A;
+    --primary-text-color: #FFFFFF;
+    --black-color: #FFFFFF;
 }
 
 *{
@@ -125,6 +133,32 @@ nav {
     max-height: 450px;
 }
 
+#dark-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background-color 0.5s;
+}
+
+#dark-btn span {
+    width: 18px;
+    height: 18px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dark-btn.dark-btn-on {
+    padding-left: 23px;
+    background-color: var(--black-color);
+}
+
 .user-profile a{
     font-size: 12px;
     color: var(--sidebar-more-link);
@@ -230,6 +264,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    color: var(--primary-text-color);
 }
 
 .shortcut-title a, .sidebar-title a {
@@ -259,6 +294,7 @@ nav {
     text-align: center;
     margin-right: 15px;
     padding-top: 15px;
+    background-color: var(--white-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -275,6 +311,10 @@ nav {
     padding: 4px 0;
 }
 
+.left-event h3, .left-event span {
+    color: var(--primary-text-color);
+}
+
 .events h4{
     margin: 8px 0;
 }
@@ -289,6 +329,10 @@ nav {
     color: var(--sidebar-more-link);
 }
 
+.right-event h4, .right-event p {
+    color: var(--primary-text-color);
+}
+
 .sidebar-ads {
     width: 100%;
     margin-bottom: 20px;
@@ -299,6 +343,10 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+}
+
+.active-users p {
+    color: var(--primary-text-color);
 }
 
 .active-users .online img {
