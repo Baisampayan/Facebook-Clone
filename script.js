@@ -1,5 +1,5 @@
-var SettinhMenu = document.querySelector('.menu-setting');
+var SettingMenu = document.querySelector(".menu-setting");
 
 function SettingMenuToggle() {
-
+    SettingMenu.classList.toggle("menu-setting-height");
 }

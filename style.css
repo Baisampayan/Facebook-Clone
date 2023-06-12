@@ -107,6 +107,62 @@ nav {
     border: none;
 }
 
+.menu-setting {
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 55px;
+    right: 5%;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+.menu-setting-height {
+    max-height: 450px;
+}
+
+.user-profile a{
+    font-size: 12px;
+    color: var(--sidebar-more-link);
+    text-decoration: none;
+}
+
+.menu-setting-inner {
+    padding: 20px;
+}
+
+.menu-setting hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 15px 0;
+}
+
+.setting-links {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.setting-links .settings-icons {
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.setting-links a {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--load-more-button-bg);
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -480,52 +536,3 @@ nav {
     font-size: 13px;
 }
 
-.menu-setting {
-    position: absolute;
-    width: 90%;
-    max-width: 350px;
-    background-color: var(--white-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    overflow: hidden;
-    top: 55px;
-    right: 5%;
-}
-
-.user-profile a{
-    font-size: 12px;
-    color: var(--sidebar-more-link);
-    text-decoration: none;
-}
-
-.menu-setting-inner {
-    padding: 20px;
-}
-
-.menu-setting hr {
-    border: 0;
-    height: 1px;
-    background-color: var(--border-color);
-    margin: 15px 0;
-}
-
-.setting-links {
-    display: flex;
-    align-items: center;
-    margin: 15px 0;
-}
-
-.setting-links .settings-icons {
-    width: 38px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-.setting-links a {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    color: var(--load-more-button-bg);
-}
