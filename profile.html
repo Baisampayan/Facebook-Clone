@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page FriendsBook - A Replica of Facebook</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="./fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="./fontawesome/css/brands.css" rel="stylesheet">
+    <link href="./fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-left">
+            <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+            <ul>
+                <li><img src="./img/notification.png" alt="notification"></li>
+                <li><img src="./img/inbox.png" alt="inbox"></li>
+                <li><img src="./img/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./img/search.png" alt="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="SettingMenuToggle()">
+                <img src="./img/bd-profile-pic" alt="profile-pic">
+            </div>
+        </div>
+        <!-- Settings Menu -->
+        <div class="menu-setting">
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="menu-setting-inner">
+                <div class="user-profile">
+                    <img src="./img/bd-profile-pic" alt="profile-pic">
+                    <div>
+                        <p>Baisampayan Das</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./img/feedback.png" alt="profile-pic">
+                    <div>
+                        <p>Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="./img/setting.png" alt="setting" class="settings-icons">
+                    <a href="#">Setting & Privacy <img src="./img/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/help.png" alt="help" class="settings-icons">
+                    <a href="#">Help & Support <img src="./img/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/display.png" alt="display" class="settings-icons">
+                    <a href="#">Display & Accessibility <img src="./img/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="./img/logout.png" alt="logout" class="settings-icons">
+                    <a href="#">Logout <img src="./img/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- Body -->
+    <div class="profile-container">
+        <img src="./img/cover.png" alt="Profile Cover Image" class="profile-cover-image">
+        <div class="profile-details">
+            <div class="profile-details-left">
+                <div class="profile-row">
+                    <img src="./img/bd-profile-pic" alt="profile-pic" class="profile-img">
+                    <div>
+                        <h3>Baisampayan Das</h3>
+                        <p>720 Friends - 35 mutual</p>
+                        <img src="./img/member-1.png" alt="mutual-friends">
+                        <img src="./img/member-2.png" alt="mutual-friends">
+                        <img src="./img/member-3.png" alt="mutual-friends">
+                        <img src="./img/member-4.png" alt="mutual-friends">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body Ends -->
+    <div class="footer">
+        <p class="copyright">Copyright 2023 - Baisampayan Das</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
