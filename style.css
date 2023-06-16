@@ -761,6 +761,17 @@ nav {
 
 .friends-photo-box div img {
     border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.friends-photo-box div {
+    position: relative;
+}
+
+.friends-photo-box div p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .profile-intro p {
