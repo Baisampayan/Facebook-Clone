@@ -632,3 +632,138 @@ nav {
     border-radius: 50%;
     margin-top: 12px;
 }
+
+.profile-btn-right button {
+    background-color: var(--primary-color);
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--white-color);
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-btn-right img {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.profile-btn-right button:first-child {
+    background-color: var(--border-color);
+    color: var(--black-color);
+}
+
+.profile-btn-right {
+    text-align: right;
+}
+
+.profile-btn-right a {
+    background-color: #e4e6eb;
+    border-radius: 3px;
+    padding: 12px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.profile-btn-right a img {
+    width: 20px;
+    height: unset;
+}
+
+.profile-info {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-col {
+    flex-basis: 33%;
+}
+
+.post-col {
+    flex-basis: 65%;
+}
+
+.profile-intro {
+    background-color: var(--white-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.profile-intro h3 {
+    font-weight: 600;
+}
+
+.profile-intro p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.profile-intro img {
+    width: 15px;
+    margin-bottom: -3px;
+}
+
+.profile-intro hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 24px 0;
+}
+
+.profile-intro ul li {
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    /* display: flex; */
+    align-items: center;
+}
+
+.profile-intro ul li span {
+    font-weight: 600;
+}
+
+.profile-intro ul li img {
+    width: 20px;
+    margin-right: 10px;
+    filter: invert(59%) sepia(11%) saturate(200%) saturate(135%) hue-rotate(176deg) brightness(96%) contrast(94%);
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-box a {
+    text-decoration: none;
+    color: var(--sidebar-more-link);
+    font-size: 14px;
+}
+
+.photo-box {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    margin-top: 15px;
+}
+
+.photo-box div img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.friends-photo-box div img {
+    border-radius: 5px;
+}
+
+.profile-intro p {
+    font-size: 14px;
+    text-align: left;
+}
