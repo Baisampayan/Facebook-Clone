@@ -778,3 +778,111 @@ nav {
     font-size: 14px;
     text-align: left;
 }
+
+/* ---------------------- Media Query (Home) ---------------------- */
+@media (max-width: 900px) {
+    .right-sidebar, .left-sidebar, .search-box {
+        display: none;
+    }
+    
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 110px;
+        margin-right: 20px;
+    }
+
+    .nav-left ul li img {
+        width: 20px;
+        margin: 0 8px;
+    }
+    
+    .nav-user-icon img {
+        width: 30px;
+    }
+
+    .nav-user-icon {
+        margin-left: 0;
+    }
+
+    .create-post-button {
+        flex-wrap: wrap;
+    }
+
+    .main-container {
+        flex-basis: 100%;
+    }
+
+    .story.upload-story img, .story img {
+        width: 25px;
+        border-width: 1px;
+    }
+
+    .story.upload-story img {
+        bottom: 30px;
+    }
+
+    .story p {
+        font-size: 10px;
+    }
+
+    .create-post-button a {
+        margin-right: 12px;
+        font-size: 10px;
+    }
+
+    .create-post-button a img {
+        width: 16px;
+        margin-right: 5px;
+    }
+
+    .post-input-container {
+        padding-left: 0;
+    }
+
+/* ---------------------- Media Query (Profile) ---------------------- */
+
+    .profile-container {
+        padding: 20px 5%;
+    }
+
+    .profile-details {
+        flex-wrap: wrap;
+    }
+
+    .profile-row div h3 {
+        font-size: 16px;
+    }
+
+    .profile-btn-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .profile-btn-right button {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .profile-btn-right br {
+        display: none;
+    }
+
+    .profile-info {
+        flex-wrap: wrap;
+    }
+
+    .info-col, .post-col {
+        flex-basis: 100%;
+    }
+
+    .friends-photo-box div img {
+        padding-bottom: 30px;
+    }
+
+    .profile-intro p {
+        font-size: 12px;
+    }
+}
